@@ -70,15 +70,11 @@ export default function CodingProfiles() {
                   </div>
                   <ExternalLink className="w-4 h-4 text-zinc-600 group-hover:text-blue-400 transition-colors" />
                 </div>
-                <TypingAnimation 
-                  text={profile.platform} 
-                  speed={1.2}
-                  showCursor={true}
-                  staggerDelay={0.03}
-                  className="text-xl font-bold text-zinc-100 mb-1 group-hover:text-blue-400 transition-colors"
-                />
+                <h3 className="text-xl font-bold text-zinc-100 mb-1 group-hover:text-blue-400 transition-colors">
+                  {profile.platform}
+                </h3>
                 <div className="text-sm text-zinc-500 font-medium">
-                  <TypingAnimation text={profile.detail} speed={0.8} staggerDelay={0.05} />
+                  {profile.detail}
                 </div>
               </motion.a>
             );

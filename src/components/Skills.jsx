@@ -62,7 +62,7 @@ export default function Skills() {
               className={`p-6 rounded-2xl border bg-gradient-to-br ${getCategoryColor(skill.category)} backdrop-blur-sm transition-all duration-300 text-center group shadow-lg hover:shadow-2xl`}
             >
               <div className="text-zinc-100 font-semibold mb-1">
-                <TypingAnimation text={skill.name} speed={1.2} showCursor={true} />
+                {skill.name}
               </div>
               <div className="text-[10px] text-zinc-400 uppercase tracking-widest mt-2">
                 {skill.category}

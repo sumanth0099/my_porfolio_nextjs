@@ -76,22 +76,13 @@ export default function Projects() {
                 
                 <div className="relative z-10 flex flex-col h-full">
                   <div className="flex justify-between items-start mb-4">
-                    <TypingAnimation 
-                      text={project.title} 
-                      speed={1.5}
-                      showCursor={true}
-                      staggerDelay={0.03}
-                      className="text-xl font-bold text-zinc-100 group-hover:text-blue-400 transition-colors"
-                    />
+                    <h3 className="text-xl font-bold text-zinc-100 group-hover:text-blue-400 transition-colors">
+                      {project.title}
+                    </h3>
                   </div>
                   
                   <div className="text-zinc-400 text-sm mb-6 line-clamp-3 group-hover:text-zinc-300 transition-colors">
-                    <TypingAnimation 
-                      text={project.description} 
-                      speed={0.8} 
-                      staggerDelay={0.02} 
-                      byWord={true} 
-                    />
+                    {project.description}
                   </div>
                   
                   {/* Action Buttons */}

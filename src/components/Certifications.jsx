@@ -31,13 +31,9 @@ export default function Certifications() {
             >
               <div>
                 <Award className="w-8 h-8 text-blue-500 mb-4 group-hover:scale-110 transition-transform" />
-                <TypingAnimation 
-                  text={cert.title} 
-                  speed={1.2}
-                  showCursor={true}
-                  staggerDelay={0.03}
-                  className="text-lg font-bold text-zinc-100 mb-4 leading-snug group-hover:text-teal-400 transition-colors"
-                />
+                <h3 className="text-lg font-bold text-zinc-100 mb-4 leading-snug group-hover:text-teal-400 transition-colors">
+                  {cert.title}
+                </h3>
               </div>
               
               <div className="pt-4 border-t border-zinc-800/50">

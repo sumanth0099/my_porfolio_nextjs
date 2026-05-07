@@ -72,14 +72,15 @@ export default function About() {
                    speed={1.0}
                    className="text-xl font-bold mb-2"
                 />
-                <TypingAnimation
-                  text={portfolioData.about.bio}
-                  speed={1.0}
-                  staggerDelay={0.02}
-                  showCursor={true}
-                  byWord={true}
+                <motion.p
+                  initial={{ opacity: 0, y: 10 }}
+                  whileInView={{ opacity: 1, y: 0 }}
+                  viewport={{ once: true }}
+                  transition={{ duration: 0.8, delay: 0.2 }}
                   className="text-zinc-400 text-lg leading-relaxed max-w-xl text-left"
-                />
+                >
+                  {portfolioData.about.bio}
+                </motion.p>
               </div>
             </div>
 

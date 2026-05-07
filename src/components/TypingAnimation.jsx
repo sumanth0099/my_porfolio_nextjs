@@ -59,25 +59,31 @@ const TypingAnimation = React.memo(({
       whileInView="visible"
       viewport={{ once: true, amount: 0.5 }}
       onAnimationComplete={() => setComplete(true)}
-      className={className}
+      className={`${className} gpu`}
     >
-      {items.map((item, index) => (
-        <motion.span 
-          variants={child} 
-          key={index}
-          className="inline-block"
-        >
-          {item === " " ? "\u00A0" : item}
-          {byWord && index !== items.length - 1 ? "\u00A0" : ""}
-        </motion.span>
-      ))}
-      {showCursor && (
-        <motion.span
-          variants={cursorVariants}
-          animate="blinking"
-          className={cursorClassName}
-          style={{ display: complete ? "none" : "inline-block" }}
-        />
+      {complete ? (
+        <span>{text}</span>
+      ) : (
+        <>
+          {items.map((item, index) => (
+            <motion.span 
+              variants={child} 
+              key={index}
+              className="inline-block"
+            >
+              {item === " " ? "\u00A0" : item}
+              {byWord && index !== items.length - 1 ? "\u00A0" : ""}
+            </motion.span>
+          ))}
+          {showCursor && (
+            <motion.span
+              variants={cursorVariants}
+              animate="blinking"
+              className={cursorClassName}
+              style={{ display: "inline-block" }}
+            />
+          )}
+        </>
       )}
     </motion.div>
   );
