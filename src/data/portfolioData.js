@@ -50,31 +50,17 @@ export const portfolioData = {
 
   projects: [
     {
-      title: "Financial Data Grid",
-      description: "A high-performance React data grid capable of rendering 1,000,000 transaction records with smooth scrolling, sorting, and filtering.",
-      tech: ["React 19", "Vite", "Zustand"],
-      link: "https://financial-data-grid-with-1-million.vercel.app/",
-      github: "https://github.com/sumanth0099/Financial-Data-Grid-with-1-Million-Row-Virtualization"
-    },
-    {
       title: "Multi-Tenant SaaS Platform",
       description: "Project and task management system with organization-level user management, project tracking, role-based access control, and secure tenant data isolation.",
       tech: ["React", "Node.js", "Express", "PostgreSQL"],
       github: "https://github.com/sumanth0099/Multi-Tenant-SaaS-Platform-with-Project-Task-Management"
     },
     {
-      title: "Real-Time Collaborative Whiteboard",
-      description: "Multiple users can draw on the same whiteboard simultaneously. Cursors and drawings are synchronized instantly via WebSockets. Auto-loads last saved state.",
-      tech: ["React", "Node.js", "WebSockets"],
-      link: "https://sumanth0099-real-time-collaborative.onrender.com/",
-      github: "https://github.com/sumanth0099/Real-Time-Collaborative-Whiteboard"
-    },
-    {
-      title: "Prompt Router",
-      description: "A production-ready AI assistant that automatically classifies user intent and routes each message to a specialised expert persona.",
-      tech: ["Node.js", "Express", "Groq Llama"],
-      link: "https://prompt-router-3r83.onrender.com/",
-      github: "https://github.com/sumanth0099/prompt_Router"
+      title: "Video Streaming Platform",
+      description: "Custom video streaming platform with adaptive bitrate playback, manual quality switching, keyboard shortcuts, watch progress persistence, and HLS-based media streaming.",
+      tech: ["React", "Vite", "HLS.js", "Docker", "AWS S3"],
+      link:"https://video-streaming-platform-with-hls-c-sepia.vercel.app/",
+      github: "https://github.com/sumanth0099/video-streaming-platform-with-hls-custom-controls-and-cdn-integration"
     },
     {
       title: "Document Site",
@@ -91,17 +77,46 @@ export const portfolioData = {
       github: "https://github.com/sumanth0099/blogplatform-nextjs-project"
     },
     {
-      title: "My Data Explorer",
-      description: "High-performance data visualization app built with React, Web Workers, and Zustand. Supports large CSV/JSON uploads (50k+ rows).",
-      tech: ["React", "Zustand", "Web Workers"],
-      link: "https://my-data-explorer.vercel.app/",
-      github: "https://github.com/sumanth0099/my-data-explorer"
+      title: "Local AI Email Auto-Responder",
+      description: "Privacy-focused AI-powered email auto-responder built with n8n and Ollama, featuring automated email replies, local LLM inference, loop prevention, and Docker-based deployment.",
+      tech: ["n8n", "Ollama", "Docker", "IMAP", "SMTP"],
+      link:"https://drive.google.com/file/d/14iMxqtI0RnsezAIoa5rzJZreCaWnRgpJ/view?usp=sharing",
+      github: "https://github.com/sumanth0099/Local_AI_Email_Auto-Responder_with_n8n_and_Ollama"
     },
     {
       title: "Productivity Suite Chrome Extension",
       description: "A production-ready Chrome Extension featuring Tab Session Manager, Website Blocker, Persistent Notes, and Custom New Tab dashboard.",
       tech: ["React", "Zustand", "Manifest V3"],
       github: "https://github.com/sumanth0099/Production-Ready-Chrome-Extension-Productivity-Suite-with-Manifest-V3"
+    },
+    {
+      title: "Financial Data Grid",
+      description: "A high-performance React data grid capable of rendering 1,000,000 transaction records with smooth scrolling, sorting, and filtering.",
+      tech: ["React 19", "Vite", "Zustand"],
+      link: "https://financial-data-grid-with-1-million.vercel.app/",
+      github: "https://github.com/sumanth0099/Financial-Data-Grid-with-1-Million-Row-Virtualization"
+    },
+    
+    {
+      title: "Real-Time Collaborative Whiteboard",
+      description: "Multiple users can draw on the same whiteboard simultaneously. Cursors and drawings are synchronized instantly via WebSockets. Auto-loads last saved state.",
+      tech: ["React", "Node.js", "WebSockets"],
+      link: "https://sumanth0099-real-time-collaborative.onrender.com/",
+      github: "https://github.com/sumanth0099/Real-Time-Collaborative-Whiteboard"
+    },
+    {
+      title: "Prompt Router",
+      description: "A production-ready AI assistant that automatically classifies user intent and routes each message to a specialised expert persona.",
+      tech: ["Node.js", "Express", "Groq Llama"],
+      link: "https://prompt-router-3r83.onrender.com/",
+      github: "https://github.com/sumanth0099/prompt_Router"
+    },
+    {
+      title: "My Data Explorer",
+      description: "High-performance data visualization app built with React, Web Workers, and Zustand. Supports large CSV/JSON uploads (50k+ rows).",
+      tech: ["React", "Zustand", "Web Workers"],
+      link: "https://my-data-explorer.vercel.app/",
+      github: "https://github.com/sumanth0099/my-data-explorer"
     },
     {
       title: "Multi-Step Registration Form",
