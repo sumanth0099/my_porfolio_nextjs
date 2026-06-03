@@ -97,7 +97,7 @@ export default function Projects() {
                         Source
                       </a>
                     )}
-                    {(project.link && project.title!="Local AI Email Auto-Responder") && (
+                    {(project.link && !["Local AI Email Auto-Responder"].includes(project.title)) && (
                       <a
                         href={project.link}
                         target="_blank"
@@ -107,7 +107,7 @@ export default function Projects() {
                        Live
                       </a>
                     )}
-                      {(project.link && project.title == "Local AI Email Auto-Responder") && (
+                      {(project.link && ["Local AI Email Auto-Responder"].includes(project.title)) && (
                       <a
                         href={project.link}
                         target="_blank"
