@@ -107,7 +107,7 @@ export default function Projects() {
                        Live
                       </a>
                     )}
-                      {(project.link && project.title in ["Local AI Email Auto-Responder"]) && (
+                      {(project.link && project.title == "Local AI Email Auto-Responder") && (
                       <a
                         href={project.link}
                         target="_blank"
