@@ -15,7 +15,7 @@ export default function Projects() {
     return portfolioData.projects.filter(project => {
       if (filter === "All") return true;
       if (filter === "Frontend") return project.tech.some(t => ["React", "HTML", "CSS", "Next.js", "Zustand"].includes(t) || t.includes("Frontend"));
-      if (filter === "Backend") return project.tech.some(t => ["Node.js", "Express", "API", "WebSockets"].includes(t));
+      if (filter === "Backend") return project.tech.some(t => ["Node.js", "Express", "API", "WebSockets","Ollama"].includes(t));
       if (filter === "Fullstack") return project.tech.length > 3 || (project.tech.includes("React") && project.tech.includes("Node.js"));
       if (filter === "JavaScript") return project.tech.some(t => t.includes("JavaScript") || t.includes("DOM"));
       return true;
@@ -97,14 +97,24 @@ export default function Projects() {
                         Source
                       </a>
                     )}
-                    {project.link && (
+                    {(project.link && project.title!="Local AI Email Auto-Responder") && (
                       <a
                         href={project.link}
                         target="_blank"
                         rel="noopener noreferrer"
                         className="flex-1 py-2 text-center text-xs font-bold rounded-lg bg-blue-600 text-white hover:bg-blue-500 transition-all shadow-[0_0_15px_rgba(37,99,235,0.3)]"
                       >
-                        Live
+                       Live
+                      </a>
+                    )}
+                      {(project.link && project.title in ["Local AI Email Auto-Responder"]) && (
+                      <a
+                        href={project.link}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="flex-1 py-2 text-center text-xs font-bold rounded-lg bg-blue-600 text-white hover:bg-blue-500 transition-all shadow-[0_0_15px_rgba(37,99,235,0.3)]"
+                      >
+                       Demo video
                       </a>
                     )}
                   </div>
