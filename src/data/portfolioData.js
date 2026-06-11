@@ -87,6 +87,7 @@ export const portfolioData = {
       title: "Productivity Suite Chrome Extension",
       description: "A production-ready Chrome Extension featuring Tab Session Manager, Website Blocker, Persistent Notes, and Custom New Tab dashboard.",
       tech: ["React", "Zustand", "Manifest V3"],
+      demo:"https://drive.google.com/file/d/1r9FR0FXsk7VE95g8785nIMxsJ-vzB8LA/view?usp=sharing",
       github: "https://github.com/sumanth0099/Production-Ready-Chrome-Extension-Productivity-Suite-with-Manifest-V3"
     },
     {
