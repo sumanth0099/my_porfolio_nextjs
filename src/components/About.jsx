@@ -79,9 +79,7 @@ export default function About() {
                   transition={{ duration: 0.8, delay: 0.2 }}
                   className="text-zinc-400 text-lg leading-relaxed max-w-xl text-left"
                 >
-                  {portfolioData.about.bio1}
-                  <br /><br />
-                  {portfolioData.about.bio2}
+                  {portfolioData.about.bio}
                 </motion.p>
               </div>
             </div>

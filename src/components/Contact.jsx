@@ -79,16 +79,16 @@ export default function Contact() {
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                 <div className="space-y-2">
                   <label className="text-xs font-semibold text-zinc-500 uppercase">First Name</label>
-                  <input type="text" className="w-full p-3 rounded-xl bg-zinc-900 border border-zinc-800 focus:border-blue-500 outline-none transition-all text-zinc-100" placeholder="John" />
+                  <input type="text" className="w-full p-3 rounded-xl bg-zinc-900 border border-zinc-800 focus:border-blue-500 outline-none transition-all text-zinc-100" placeholder="Sushanth Singh" />
                 </div>
                 <div className="space-y-2">
                   <label className="text-xs font-semibold text-zinc-500 uppercase">Last Name</label>
-                  <input type="text" className="w-full p-3 rounded-xl bg-zinc-900 border border-zinc-800 focus:border-blue-500 outline-none transition-all text-zinc-100" placeholder="Doe" />
+                  <input type="text" className="w-full p-3 rounded-xl bg-zinc-900 border border-zinc-800 focus:border-blue-500 outline-none transition-all text-zinc-100" placeholder="Rajput" />
                 </div>
               </div>
               <div className="space-y-2">
                 <label className="text-xs font-semibold text-zinc-500 uppercase">Email Address</label>
-                <input type="email" className="w-full p-3 rounded-xl bg-zinc-900 border border-zinc-800 focus:border-blue-500 outline-none transition-all text-zinc-100" placeholder="john@example.com" />
+                <input type="email" className="w-full p-3 rounded-xl bg-zinc-900 border border-zinc-800 focus:border-blue-500 outline-none transition-all text-zinc-100" placeholder="user@gmail.com" />
               </div>
               <div className="space-y-2">
                 <label className="text-xs font-semibold text-zinc-500 uppercase">Message</label>

@@ -9,8 +9,7 @@ export const portfolioData = {
   profileImage: "/profile.png",
   
   about: {
-    bio1: `Hi, I'm Sumanth Reddy Tetala, a final-year Computer Science student and Full-Stack Developer passionate about building scalable, user-focused web applications. I specialize in the MERN stack and PostgreSQL, with experience developing complete applications from frontend interfaces to backend services and database design.`,                                           
-    bio2:`I enjoy solving complex problems using Java and regularly practice Data Structures and Algorithms on coding platforms. My projects span SaaS applications, AI-powered tools, real-time collaborative systems, data-intensive applications, and browser extensions. I am constantly exploring new technologies, improving my development skills, and building projects that solve real-world problems.`,
+    bio: `Hi, I'm Sumanth Reddy Tetala, a final-year Computer Science student and Full-Stack Developer passionate about building scalable, user-focused web applications. I specialize in the MERN stack and PostgreSQL, with experience developing complete applications from frontend interfaces to backend services and database design.                                                         I enjoy solving complex problems using Java and regularly practice Data Structures and Algorithms on coding platforms. My projects span SaaS applications, AI-powered tools, real-time collaborative systems, data-intensive applications, and browser extensions. I am constantly exploring new technologies, improving my development skills, and building projects that solve real-world problems.`,
   },
 
   education: [
@@ -18,7 +17,7 @@ export const portfolioData = {
       degree: "B.Tech 4th Year CSE",
       institution: "Aditya College of Engineering and Technology",
       years: "2023 - 2027",
-      grade: "8.45 CGPA",
+      grade: "8.37 CGPA",
       current: true
     },
     {
