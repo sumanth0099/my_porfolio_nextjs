@@ -3,8 +3,9 @@ import { motion } from "framer-motion";
 import { portfolioData } from "@/data/portfolioData";
 import { Mail, Github, Linkedin } from "lucide-react";
 import TypingAnimation from "./TypingAnimation";
-
+import { useState } from "react";
 export default function Contact() {
+  let [sent, setsent] = useState(false);
   return (
     <section id="contact" className="py-24 overflow-x-hidden">
       <div className="container mx-auto px-4 md:px-6">
@@ -97,8 +98,8 @@ export default function Contact() {
               <button
                 type="submit"
                 className="w-full py-4 bg-blue-600 hover:bg-blue-700 text-white rounded-xl font-bold transition-all shadow-[0_0_20px_rgba(37,99,235,0.3)] active:scale-[0.98]"
-              >
-                Send Message
+              onClick={() => setsent(true)}>
+                {(!sent)?"Send Message":"Sent Successfully!"}
               </button>
             </motion.form>
           </div>
