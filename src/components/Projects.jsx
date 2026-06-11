@@ -97,7 +97,7 @@ export default function Projects() {
                         Source
                       </a>
                     )}
-                    {(project.link && !["Local AI Email Auto-Responder"].includes(project.title)) && (
+                    {(project.link) && (
                       <a
                         href={project.link}
                         target="_blank"
@@ -107,9 +107,9 @@ export default function Projects() {
                        Live
                       </a>
                     )}
-                      {(project.link && ["Local AI Email Auto-Responder"].includes(project.title)) && (
+                      {(project.demo) && (
                       <a
-                        href={project.link}
+                        href={project.demo}
                         target="_blank"
                         rel="noopener noreferrer"
                         className="flex-1 py-2 text-center text-xs font-bold rounded-lg bg-blue-600 text-white hover:bg-blue-500 transition-all shadow-[0_0_15px_rgba(37,99,235,0.3)]"

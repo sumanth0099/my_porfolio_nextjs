@@ -9,7 +9,7 @@ export const portfolioData = {
   profileImage: "/profile.png",
   
   about: {
-    bio: "I am a student at Aditya College of Engineering and Technology, passionate about the MERN stack and building high-performance web applications. I have experience with PostgreSQL for database management and I'm constantly learning new technologies like Next.js and Docker to improve my development workflow.",
+    bio: `Hi, I'm Sumanth Reddy Tetala, a final-year Computer Science student and Full-Stack Developer passionate about building scalable, user-focused web applications. I specialize in the MERN stack and PostgreSQL, with experience developing complete applications from frontend interfaces to backend services and database design.\nI enjoy solving complex problems using Java and regularly practice Data Structures and Algorithms on coding platforms. My projects span SaaS applications, AI-powered tools, real-time collaborative systems, data-intensive applications, and browser extensions. I am constantly exploring new technologies, improving my development skills, and building projects that solve real-world problems.`,
   },
 
   education: [
@@ -80,7 +80,7 @@ export const portfolioData = {
       title: "Local AI Email Auto-Responder",
       description: "Privacy-focused AI-powered email auto-responder built with n8n and Ollama, featuring automated email replies, local LLM inference, loop prevention, and Docker-based deployment.",
       tech: ["n8n", "Ollama", "Docker", "IMAP", "SMTP"],
-      link:"https://drive.google.com/file/d/14iMxqtI0RnsezAIoa5rzJZreCaWnRgpJ/view?usp=sharing",
+      demo:"https://drive.google.com/file/d/14iMxqtI0RnsezAIoa5rzJZreCaWnRgpJ/view?usp=sharing",
       github: "https://github.com/sumanth0099/Local_AI_Email_Auto-Responder_with_n8n_and_Ollama"
     },
     {
