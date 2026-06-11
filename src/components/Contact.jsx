@@ -80,7 +80,7 @@ export default function Contact() {
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                 <div className="space-y-2">
                   <label className="text-xs font-semibold text-zinc-500 uppercase">First Name</label>
-                  <input type="text" className="w-full p-3 rounded-xl bg-zinc-900 border border-zinc-800 focus:border-blue-500 outline-none transition-all text-zinc-100" placeholder="Sushanth Singh" />
+                  <input type="text" required className="w-full p-3 rounded-xl bg-zinc-900 border border-zinc-800 focus:border-blue-500 outline-none transition-all text-zinc-100" placeholder="Sushanth Singh" />
                 </div>
                 <div className="space-y-2">
                   <label className="text-xs font-semibold text-zinc-500 uppercase">Last Name</label>
@@ -89,7 +89,7 @@ export default function Contact() {
               </div>
               <div className="space-y-2">
                 <label className="text-xs font-semibold text-zinc-500 uppercase">Email Address</label>
-                <input type="email" className="w-full p-3 rounded-xl bg-zinc-900 border border-zinc-800 focus:border-blue-500 outline-none transition-all text-zinc-100" placeholder="user@gmail.com" />
+                <input type="email" required className="w-full p-3 rounded-xl bg-zinc-900 border border-zinc-800 focus:border-blue-500 outline-none transition-all text-zinc-100" placeholder="user@gmail.com" />
               </div>
               <div className="space-y-2">
                 <label className="text-xs font-semibold text-zinc-500 uppercase">Message</label>
@@ -98,7 +98,7 @@ export default function Contact() {
               <button
                 type="submit"
                 className="w-full py-4 bg-blue-600 hover:bg-blue-700 text-white rounded-xl font-bold transition-all shadow-[0_0_20px_rgba(37,99,235,0.3)] active:scale-[0.98]"
-              onClick={() => setsent(true)}>
+              onClick={() => setsent(!sent)}>
                 {(!sent)?"Send Message":"Sent Successfully!"}
               </button>
             </motion.form>
