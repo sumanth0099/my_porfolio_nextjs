@@ -50,6 +50,23 @@ export const portfolioData = {
 
   projects: [
     {
+      title: "AI-Based Collaborative Study System",
+      description: "A collaborative learning platform that enables students to create notes, share study resources, join study groups, chat in real time, access AI-powered study tools, and stay updated with the latest education news.",
+      tech: [
+        "React",
+        "Node.js",
+        "Express",
+        "PostgreSQL",
+        "Zustand",
+        "WebSockets",
+        "Redis",
+        "Google OAuth",
+        "Cloudinary"
+      ],
+      github: "https://github.com/sumanth0099/AI-based-collaborative-study-system",
+      demo: "https://ai-based-collaborative-study-system-1u1c.onrender.com/"
+    },
+    {
       title: "Multi-Tenant SaaS Platform",
       description: "Project and task management system with organization-level user management, project tracking, role-based access control, and secure tenant data isolation.",
       tech: ["React", "Node.js", "Express", "PostgreSQL"],
