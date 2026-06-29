@@ -64,7 +64,7 @@ export const portfolioData = {
         "Cloudinary"
       ],
       github: "https://github.com/sumanth0099/AI-based-collaborative-study-system",
-      demo: "https://ai-based-collaborative-study-system-1u1c.onrender.com/"
+      link: "https://ai-based-collaborative-study-system-1u1c.onrender.com/"
     },
     {
       title: "Multi-Tenant SaaS Platform",
