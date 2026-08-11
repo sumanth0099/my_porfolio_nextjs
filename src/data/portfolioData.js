@@ -6,7 +6,7 @@ export const portfolioData = {
   location: "East Godavari, Andhra Pradesh, India",
   linkedin: "https://www.linkedin.com/in/sumanth-reddy-tetala-359232291/",
   github: "https://github.com/sumanth0099",
-  profileImage: "/profile.png",
+  profileImage: "/profile.jpg",
   
   about: {
     bio: `Hi, I'm Sumanth Reddy Tetala, a final-year Computer Science student and Full-Stack Developer passionate about building scalable, user-focused web applications. I specialize in the MERN stack and PostgreSQL, with experience developing complete applications from frontend interfaces to backend services and database design.                                                         I enjoy solving complex problems using Java and regularly practice Data Structures and Algorithms on coding platforms. My projects span SaaS applications, AI-powered tools, real-time collaborative systems, data-intensive applications, and browser extensions. I am constantly exploring new technologies, improving my development skills, and building projects that solve real-world problems.`,
